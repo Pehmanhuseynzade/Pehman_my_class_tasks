@@ -1,0 +1,260 @@
+/* Task1 */
+
+/* section{
+    width: 40%;
+    height: 40vh;
+    background-color: chocolate;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.box1 , .box2 , .box3{
+    width: 180px;
+    height: 100px;
+    background-color: purple;
+}
+.box1 , .box3{
+    border: 2px solid white;
+}
+.box2{
+    border: 2px solid black;
+}
+section .child{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    line-height: bold;
+    padding-top: 30px;
+}
+.box2{
+    position:relative;
+    right: 150px;
+    bottom: 80px;
+} */
+
+
+/* Task2 */
+
+/* section{
+    width: 40%;
+    height: 40vh;
+    background-color: chocolate;
+    border: 2px solid black;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+}
+.box1 , .box2 , .box3{
+    width: 180px;
+    height: 100px;
+    background-color: purple;
+}
+.box1 , .box3{
+    border: 2px solid white;
+}
+.box2{
+    border: 2px solid black;
+}
+section .child{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    line-height: bold;
+    padding-top: 30px;
+}
+.box2{
+    position:absolute;
+    top: 350px;
+}
+ */
+
+
+
+
+
+
+
+/* TASK3 */
+
+/* section{
+    width: 40%;
+    height: 65vh;
+    background-color: chocolate;
+    border: 2px solid black;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.box1 , .box2 , .box3, .box4, .box5, .box6{
+    width: 180px;
+    height: 100px;
+    background-color: purple;
+}
+:not(.box3){
+    border: 2px solid white;
+}
+.box3{
+    border: 2px solid black;
+}
+section p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    line-height: bold;
+    padding-top: 30px;
+}
+.box3{
+    position:absolute;
+    right: 300px;
+} */
+
+
+/* TASK4 */
+
+/* section{
+    width: 40%;
+    height: 65vh;
+    background-color: chocolate;
+    border: 2px solid black;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.box1 , .box2 , .box3, .box4{
+    width: 180px;
+    height: 100px;
+    background-color: purple;
+}
+:not(.box2){
+    border: 2px solid white;
+}
+.box2{
+    border: 2px solid black;
+    position:relative;
+    bottom: 70px;
+} */
+
+/* TASK5 */
+
+
+/* header{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(108, 10, 128);
+    position: fixed;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    color: white ;
+    line-height: bold;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    padding-top:30px;
+}
+.content{
+    margin-top: 100px;
+} */
+
+
+/* TASK 6 */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.general{
+    width: 100%;
+    height: 150vh;
+}
+section{
+    width: 10%;
+    height: 150vh;
+    background-color: rgb(108, 10, 128);
+    position: fixed;
+
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    color: white ;
+    line-height: bold;
+    line-height: 1.5;
+}
+.content{
+    width: 90%;
+    height: 150vh;
+    display: flex;
+    position: relative;
+    left: 11%;
+}
+h1{
+    font-size: 30px;
+    padding-left: 60px;
+} */
+
+
+/* TASK7 */
+section{
+    width: 53%;
+    height: 60vh;
+    background-color: chocolate;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.box1 , .box2 , .box3, .box4{
+    width: 240px;
+    height: 580px;
+    background-color: white;
+    border-radius: 10px;
+}
+.img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    position: relative;
+}
+.fa-heart{
+
+    top: 10px;
+    right: 10px;
+    position: absolute;
+
+}
+span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: green;
+}

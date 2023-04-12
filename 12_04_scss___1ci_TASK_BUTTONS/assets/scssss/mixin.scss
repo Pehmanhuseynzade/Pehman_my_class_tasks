@@ -1,0 +1,11 @@
+@mixin forcenter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  @mixin button_setting{
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    }

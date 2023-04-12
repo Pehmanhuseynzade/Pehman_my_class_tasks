@@ -1,0 +1,273 @@
+/* body{
+    background-color: rgba(0, 0, 255, 0.808);
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+.boxes{
+    width: 300px;
+    height: 450px;
+    transition: .5s;
+
+}
+.boxes:hover{
+    transform: scale(0.8);
+}
+.boxes .icons{
+    width: 80px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.fa-solid{
+    font-size: 35px;
+    color: white;
+}
+.title h1{
+    color: white;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text p{
+    color: white;
+    text-align: center;
+}
+.btn_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_div .btn{
+    width: 130px;
+    height: 40px;
+    color: black;
+    transition: .5s;
+    border: none;
+}
+.btn_div .btn:hover{
+    background-color:rgb(47, 47, 224) ;
+    color: white;
+    transform: scale(0.8);
+} */
+
+
+
+
+/* Task2 */
+/* body{
+    background-color: white;
+}
+header h1,header p{
+    display: flex;
+    justify-content: center;    
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+    margin-top: 30px;
+}
+section .boxes{
+    width: 300px;
+    height: 450px;
+    border-radius: 50%;
+    border: 2px solid purple;
+    padding:0 50px;
+    margin-top: 100px;
+    transition: .5s;
+}
+
+.boxes:hover {
+    background-color: purple;
+}
+.boxes:hover .text>p{
+color: white;
+}
+.boxes:hover .title>h1{
+    color: white;
+    }
+.boxes:hover .icons {
+    background-color: white;
+    color: purple;
+}
+.boxes:hover .icons i {
+    color: purple;
+}
+.icons{
+    color: white;
+}
+.icons:hover{
+    color: purple;
+}
+.boxes .icons{
+    width: 100px;
+    height: 100px;
+    border: 3px solid purple;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: purple;
+    position: relative;
+}
+
+.icons{
+    position: absolute;
+    bottom: 85px;
+}
+.fa-solid{
+    font-size: 35px;
+    color: white;
+}
+.title h1{
+    color: black;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text p{
+    color: black;
+    text-align: center;
+}
+.btn_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_div .btn{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    transition: .5s;
+    border: none;
+    transition: .5s;
+}
+.btn_div .btn:hover{
+    background-color:purple ;
+    color: white;
+
+} */
+
+
+/* TASK3 */
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+.boxes{
+    width: 300px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 70px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+.boxes::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: translateY(100%);
+    transition: .5s;
+    background-color: orange;
+}
+.boxes:hover::after{
+    transform: translateY(0%);
+}
+.boxes:hover .icons {
+    background-color: white;
+}
+
+.boxes .icons{
+    width: 80px;
+    height: 80px;
+    border: 3px solid orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.boxes .icons:hover{
+    border-color:white ;
+}
+.fa-solid{
+    font-size: 35px;
+    color: orange;
+}
+.fa-solid
+.title h1{
+    color: black;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text p{
+    color: black;
+    text-align: center;
+}
+.btn_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_div .btn{
+    width: 130px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    transition: .5s;
+    border: none;
+}
+.btn_div .btn:hover{
+    background-color:white ;
+    color: orange;
+} 

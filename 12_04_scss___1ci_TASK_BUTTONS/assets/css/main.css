@@ -1,0 +1,62 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+body main {
+  width: 80%;
+  height: 500px;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+body main .links {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+body main .links .primary {
+  background-color: purple;
+}
+body main .links .secondary {
+  background-color: rgb(0, 128, 107);
+}
+body main .links .succes {
+  background-color: green;
+}
+body main .links .danger {
+  background-color: red;
+}
+body main .links .varming {
+  background-color: orange;
+}
+body main .links .info {
+  background-color: rgba(128, 0, 128, 0.315);
+}
+body main .links .light {
+  background-color: gray;
+}
+body main .links .dark {
+  background-color: black;
+}
+body main .links .link {
+  background-color: white;
+}
+body main .links a {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.5s;
+}
+body main .links a:hover {
+  background-color: green;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,55 @@
+@import "./mixin.scss";
+@import "./variable";
+
+body{
+    margin: 0 auto;
+    @include forcenter;
+    main{
+        width: 80%;
+        height: 500px;
+        border: 2px solid green;
+        @include forcenter;
+    .links{
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        .primary{
+            background-color: $primary;
+        }
+        .secondary{
+            background-color: $secondary;
+        }
+        .succes{
+            background-color: $succes;
+        }
+        .danger{
+            background-color: $danger;
+        }
+        .varming{
+            background-color: $warning;
+        }
+        .info{
+            background-color: $info;
+        }
+        .light{
+            background-color: $light;
+        }
+        .dark{
+            background-color: $dark;
+        }
+        .link{
+            background-color: $link;
+        }
+        a{
+            @include button_setting;
+            @include forcenter;
+            text-decoration: none;
+            transition: 0.5s;
+            &:hover{
+                background-color: $succes;
+            }
+        }
+
+    }
+    }
+}

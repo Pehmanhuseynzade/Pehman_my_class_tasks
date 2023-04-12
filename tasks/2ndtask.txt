@@ -1,0 +1,268 @@
+    <div class="bcg">
+        <h1>BMW NEW</h1>
+    </div>
+----------------------------------
+.bcg{
+    width: 1000px;
+    height: 60vh;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-image: url(./bmw-m4-competition-bmw-m3-sedan-si.jpg);
+    background-attachment: scroll;
+    position: relative;
+}
+.bcg::after{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: .5s;
+
+}
+h1{
+   position:absolute;
+   margin-left: 400px;
+   margin-top: 250px;
+   font-size: 40px;
+   color: white;
+
+}
+.bcg:hover::after{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+-------------------------------------------------------------------------
+    <div class="container">
+        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt praesentium odio animi facere excepturi sapiente commodi, ipsam aspernatur officiis amet iure fugit doloremque quis voluptate nam autem, aliquid ab modi.
+        Laudantium, officiis laborum! Repellendus eius fuga repellat. iditate paria</div>
+        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt praesentium odio animi facere excepturi sapiente commodi, ipsam aspernatur officiis amet iure fugit doloremque quis voluptate nam autem, aliquid ab modi.
+            Laudantium, officiis laborum! Repellendus eius fuga repellat. Enim cupiditate paria</div>
+            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt praesentium odio animi facere excepturi sapiente commodi, ipsam aspernatur officiis amet iure fugit doloremque quis voluptate nam autem, aliquid ab modi.
+                Laudantium, officiis laborum! Repellendus eius fuga repellat. Enim cupiditate paria</div>
+
+    </div>
+----------------------------------------------------------------
+.container{
+    width: 400px;
+    height:35vh ;
+    margin: 0 auto;
+    border: 10px solid rgba(42, 42, 212, 0.527);
+    padding: 30px 20px 10px 20px;
+    text-align: justify;
+    color: white;
+    background-color: rgba(34, 54, 233, 0.719);
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.text{
+    margin-bottom: 10px;
+}
+-----------------------------------------------------------
+next task:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="#">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/mycss.css">
+</head>
+<body>
+    <div>
+      <ul>
+        <li>My Favorite Web Development Learning Sites</li>
+      </ul>
+    </div>
+    <div class="container">
+        <div class="childdiv">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio accusamus, mollitia necessitatibus quaerat dignissimos sunt ipsam? Expedita in labore excepturi recusandae obcaecati voluptatibus necessitatibus asperiores molestiae fuga. Natus, rerum quasi?
+            re iure ste pariatur. Tenetur dolorum molestiae sapiente, eius beatae itaque?
+        </div>
+    </div>
+</body>
+</html>
+----------------------------------------------------------------------------
+.container{
+    width: 90%;
+    height: 20vh;
+    border: 5px solid chocolate;
+    background-color: rgba(210, 105, 30, 0.39);
+    transition: .5s;
+    margin: 0 auto;
+}
+.childdiv{
+    width: 60%;
+    height: 5vh;
+    border: 5px solid white;
+    margin: 0 auto;
+    background-color: rgb(63, 63, 219);
+    margin-top: 50px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+.container:hover{
+    background-color: brown;
+}
+.childdiv:hover{
+    background-color: rgba(0, 0, 255, 0.685);
+}
+------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="#">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/mycss.css">
+</head>
+<body>
+<div class="container">
+    <div class="div1">
+        <span class="span"><u>List:Lorem Ipsum Dolar</u></span>
+
+        <ul class="ul">
+            <li class="lor">Lorem</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem Ipsum Dolar</li>
+        </ul>
+    </div>
+
+    <div class="div2">
+        <span class="span"><u><strong>List2:Lorem Ipsum Dolar</strong></u></span>
+
+        <ul class="ul">
+
+            <li>Lorem</li>
+            <li>Lorem ipsum</li>
+        </ul>
+        <span class="lorem">Lorem Ipsum Dolar</span>
+    </div>
+</div>
+</body>
+</html>
+------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="#">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/mycss.css">
+</head>
+<body>
+<div class="container">
+    <div class="div1">
+        <span class="span"><u>List:Lorem Ipsum Dolar</u></span>
+
+        <ul class="ul">
+            <li class="lor">Lorem</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem Ipsum Dolar</li>
+        </ul>
+    </div>
+
+    <div class="div2">
+        <span class="span"><u><strong>List2:Lorem Ipsum Dolar</strong></u></span>
+
+        <ul class="ul">
+
+            <li>Lorem</li>
+            <li>Lorem ipsum</li>
+        </ul>
+        <span class="lorem">Lorem Ipsum Dolar</span>
+    </div>
+</div>
+</body>
+</html>
+--------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="#">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/mycss.css">
+</head>
+<body>
+<header>Header</header>
+<section>
+        <aside>
+            <ul>
+                <li>Pehman</li>
+                <li>Pehman</li>
+                <li>Pehman</li>
+            </ul>
+        </aside>
+        <main>
+            <h1>Fransa</h1>
+            <p >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fugiat rerum corrupti! Vel natus rerum expedita recusandae incidunt adipisci inventore perspiciatis praesentium optio accusamus harum aspernatur sed cumque, ad omnis.
+                Reiciendis aliquid dolore quidem eveniet ea, nam voluptas minus odit quis nemo vitae architecto esse illum commodi alias molestiae eaque laborum quas facilis cumque ad optio. Aperiam vero omnis recusandae!
+                Quisquam amet laborum unde pariatur sed illum, quia mollitia at, ullam consequuntur expedita assumenda aut dolore ducimus hic modi consectetur est totam rem sapiente veniam, reiciendis et. Ratione, fugit est.
+                Quo debitis perspiciatis porro laboriosam. Molestias quibusdam fugiat cum culpa cupiditate, error omnis natus facilis laboriosam aperiam inventore rerum sed voluptas maiores laborum repellendus quos ipsum dolor, perferendis quisquam. Minus?
+            </p>
+        </main>
+</section>
+<footer>
+
+</footer>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------
+header{
+    width: 100%;
+    height: 70px;
+    background-color: chocolate;
+}
+header {
+    font-size: 30px;
+    color: white;
+    text-align:center;
+    padding-top: 15px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(210, 105, 30, 0.39);
+    display: flex;
+}
+aside{
+    width: 20%;
+    background-color: rgba(210, 105, 30, 0.39);
+    display: flex;
+}
+main{
+    width: 80%;
+    background-color: rgba(210, 105, 30, 0.788);
+    display: flex;
+}
+h1{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+    /* margin-left: 530px; */
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(210, 105, 30, 0.63);
+
+}
+p{
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+}
